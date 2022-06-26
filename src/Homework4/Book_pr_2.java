@@ -1,12 +1,12 @@
 package Homework4;
 
-public class Book extends Author{
+public class Book_pr_2 extends Author_pr_2 {
     String name;
     int year;
-    Author author;
+    Author_pr_2 author;
     double price;
 
-    public Book(String name, int year, Author author, double price) {
+    public Book_pr_2(String name, int year, Author_pr_2 author, double price) {
         super(author.name, author.email);
         this.name = name;
         this.year = year;
@@ -19,7 +19,7 @@ public class Book extends Author{
         return this.name;
     }
 
-    public Author getAuthor(Author author) {
+    public Author_pr_2 getAuthor(Author_pr_2 author) {
         this.author = author;
 
         return this.author;

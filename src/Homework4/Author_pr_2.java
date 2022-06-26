@@ -1,10 +1,10 @@
 package Homework4;
 
-public class Author {
+public class Author_pr_2 {
     String name;
     String email;
 
-    public Author(String name, String email) {
+    public Author_pr_2(String name, String email) {
         this.name = name;
         this.email = email;
     }
