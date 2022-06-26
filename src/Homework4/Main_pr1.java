@@ -1,5 +1,6 @@
 package Homework4;
 
+
 public class Main_pr1 {
     public static void main(String[] args) {
         Employee_pr1 manager1 = new Employee_pr1("Gigel", "manager", 25);
