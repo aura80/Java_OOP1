@@ -1,11 +1,11 @@
 package Homework4;
 
-public class Main {
+public class Main_pr1 {
     public static void main(String[] args) {
-        Employee manager1 = new Employee("Gigel", "manager", 25);
-        Employee manager2 = new Employee("Costel", "manager", 6);
-        Employee tester1 = new Employee("Titel", "tester", 7);
-        Employee tester2 = new Employee("Jenel", "tester", 18);
+        Employee_pr1 manager1 = new Employee_pr1("Gigel", "manager", 25);
+        Employee_pr1 manager2 = new Employee_pr1("Costel", "manager", 6);
+        Employee_pr1 tester1 = new Employee_pr1("Titel", "tester", 7);
+        Employee_pr1 tester2 = new Employee_pr1("Jenel", "tester", 18);
 
         System.out.println(manager1.presentingEmployee());
         System.out.println(manager2.presentingEmployee());
@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println();
 
-        Employee manager3 = new Employee("", "", 0);
+        Employee_pr1 manager3 = new Employee_pr1("", "", 0);
 
         int a, b, experience;
 

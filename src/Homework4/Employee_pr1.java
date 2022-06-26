@@ -1,12 +1,12 @@
 package Homework4;
 
-public class Employee {
+public class Employee_pr1 {
     String name;
     String position;
     int yearsOfService;
     int salary;
 
-    public Employee(String name, String position, int yearsOfService) {
+    public Employee_pr1(String name, String position, int yearsOfService) {
         this.name = name;
         this.position = position;
         this.yearsOfService = yearsOfService;
