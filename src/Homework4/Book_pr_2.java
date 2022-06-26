@@ -32,4 +32,5 @@ public class Book_pr_2 extends Author_pr_2 {
     public int getYear() {
         return this.year;
     }
+
 }

@@ -35,6 +35,7 @@ public class Library_pr_2 {
             System.out.println(ii+1 + ".   " + autor.name);
             ii++;
         }
+
         //System.out.println(listaAutori);
 
         System.out.println("-----------------------------------\n");
@@ -51,11 +52,6 @@ public class Library_pr_2 {
         for (int i = 0; i < listaCarti.size(); i++) {
             System.out.println(i+1 + ".  " + listaCarti.get(i).name + " , " + listaCarti.get(i).year + "        " + listaCarti.get(i).author + "       " + listaCarti.get(i).price + " RON ");
         }
-
-
-
-
-
 
     }
 }
