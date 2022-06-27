@@ -1,4 +1,4 @@
-package Homework4;
+package homework4;
 
 public class Author_pr_2 {
     String name;
@@ -21,5 +21,5 @@ public class Author_pr_2 {
     public String getEmail() {
         return this.email;
     }
-    
+
 }
