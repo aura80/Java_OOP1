@@ -1,4 +1,4 @@
-package homework4_;
+package homework4;
 
 public class Book_pr_2 extends Author_pr_2 {
     String name;
