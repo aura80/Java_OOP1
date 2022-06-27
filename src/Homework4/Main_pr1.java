@@ -1,4 +1,4 @@
-package Homework4;
+package homework4;
 
 
 public class Main_pr1 {
