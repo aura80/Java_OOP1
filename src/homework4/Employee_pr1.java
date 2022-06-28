@@ -2,10 +2,10 @@ package homework4;
 
 
 public class Employee_pr1 {
-    String name;
-    String position;
-    int yearsOfService;
-    int salary;
+    private String name;
+    private String position;
+    private int yearsOfService;
+    private int salary;
 
     public Employee_pr1(String name, String position, int yearsOfService) {
         this.name = name;
