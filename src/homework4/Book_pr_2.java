@@ -2,12 +2,12 @@ package homework4;
 
 public class Book_pr_2 extends Author_pr_2 {
     private String name;
-    int year;
+    private int year;
     Author_pr_2 author;
-    double price;
+    private double price;
 
     public Book_pr_2(String name, int year, Author_pr_2 author, double price) {
-        super(author.name, author.email);
+        super(author.getName(), author.getEmail());
         this.name = name;
         this.year = year;
         this.author = author;

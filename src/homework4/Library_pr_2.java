@@ -19,7 +19,7 @@ public class Library_pr_2 {
 
         Author_pr_2 autor3 = new Author_pr_2("Camil Petrescu", "camil@yahoo.com");
         Book_pr_2 carte3 = new Book_pr_2("Act venetian", 1946, autor3, 40.22);
-        System.out.println(carte3.getName() + " , " + carte3.year + "        " + carte3.author + "       " + carte3.price + " RON ");
+        System.out.println(carte3.getName() + " , " + carte3.getYear() + "        " + carte3.author + "       " + carte3.getPrice() + " RON ");
         System.out.println(carte3.getAuthor(autor3));
 
         System.out.println("-----------------------------------");
@@ -32,7 +32,7 @@ public class Library_pr_2 {
 
         int ii = 0;
         for (Author_pr_2 autor:listaAutori) {
-            System.out.println(ii+1 + ".   " + autor.name);
+            System.out.println(ii+1 + ".   " + autor.getName());
             ii++;
         }
 
@@ -40,7 +40,7 @@ public class Library_pr_2 {
 
         System.out.println("-----------------------------------\n");
 
-        System.out.println(autor3.name + "\n");
+        System.out.println(autor3.getName() + "\n");
 
         ArrayList<Book_pr_2> listaCarti = new ArrayList<>(Arrays.asList(new Book_pr_2("Patul lui Procust", 1933, autor3, 35.45),
                 new Book_pr_2("Turnul de fildes", 1950, autor3, 52.4),
@@ -50,7 +50,7 @@ public class Library_pr_2 {
 
         //for (Book carte:listaCarti) {
         for (int i = 0; i < listaCarti.size(); i++) {
-            System.out.println(i+1 + ".  " + listaCarti.get(i).getName() + " , " + listaCarti.get(i).year + "        " + listaCarti.get(i).author + "       " + listaCarti.get(i).price + " RON ");
+            System.out.println(i+1 + ".  " + listaCarti.get(i).getName() + " , " + listaCarti.get(i).getYear() + "        " + listaCarti.get(i).author + "       " + listaCarti.get(i).getPrice() + " RON ");
         }
 
     }

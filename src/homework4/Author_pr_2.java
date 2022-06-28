@@ -1,8 +1,8 @@
 package homework4;
 
 public class Author_pr_2 {
-    String name;
-    String email;
+    private String name;
+    private String email;
 
     public Author_pr_2(String name, String email) {
         this.name = name;
