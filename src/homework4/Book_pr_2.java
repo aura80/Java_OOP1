@@ -1,7 +1,7 @@
 package homework4;
 
 public class Book_pr_2 extends Author_pr_2 {
-    String name;
+    private String name;
     int year;
     Author_pr_2 author;
     double price;

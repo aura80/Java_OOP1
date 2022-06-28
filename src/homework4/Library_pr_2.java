@@ -19,7 +19,7 @@ public class Library_pr_2 {
 
         Author_pr_2 autor3 = new Author_pr_2("Camil Petrescu", "camil@yahoo.com");
         Book_pr_2 carte3 = new Book_pr_2("Act venetian", 1946, autor3, 40.22);
-        System.out.println(carte3.name + " , " + carte3.year + "        " + carte3.author + "       " + carte3.price + " RON ");
+        System.out.println(carte3.getName() + " , " + carte3.year + "        " + carte3.author + "       " + carte3.price + " RON ");
         System.out.println(carte3.getAuthor(autor3));
 
         System.out.println("-----------------------------------");
@@ -50,7 +50,7 @@ public class Library_pr_2 {
 
         //for (Book carte:listaCarti) {
         for (int i = 0; i < listaCarti.size(); i++) {
-            System.out.println(i+1 + ".  " + listaCarti.get(i).name + " , " + listaCarti.get(i).year + "        " + listaCarti.get(i).author + "       " + listaCarti.get(i).price + " RON ");
+            System.out.println(i+1 + ".  " + listaCarti.get(i).getName() + " , " + listaCarti.get(i).year + "        " + listaCarti.get(i).author + "       " + listaCarti.get(i).price + " RON ");
         }
 
     }
