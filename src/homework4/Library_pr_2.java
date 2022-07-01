@@ -15,6 +15,10 @@ public class Library_pr_2 {
         Book_pr_2 carte2 = new Book_pr_2("La tiganci", 2018, autor2, 21.32);
         System.out.println("Book < " + carte2.getName() + " >(< " + carte2.getPrice() + " > RON), by < " + carte2.getAuthor(autor2) + " >, published in < " + carte2.getYear() + " >");
 
+        System.out.println("Accessing author: " + carte2.getAuthor(autor2).getName());
+
+        System.out.println("Accessing author's email: " + carte2.getAuthor(autor2).getEmail());
+
         System.out.println("-----------------------------------");
 
         Author_pr_2 autor3 = new Author_pr_2("Camil Petrescu", "camil@yahoo.com");
