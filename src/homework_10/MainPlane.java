@@ -1,4 +1,4 @@
-package homework10;
+package homework_10;
 
 public class MainPlane {
     public static void main(String[] args) {
