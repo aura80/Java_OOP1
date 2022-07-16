@@ -1,4 +1,4 @@
-package homework_9;
+package homework9;
 
 public class Bus {
     private final String brand;
