@@ -40,7 +40,7 @@ public class AirConditioner {
     }
 
     public int raiseTemperature() {
-        if (on && this.swinging) {
+        if (on && this.swinging && this.temperature < 30) {
             this.temperature += 1;
             System.out.println("+ Raise temperature!");
         }
@@ -50,7 +50,7 @@ public class AirConditioner {
     }
 
     public int lowerTemperature() {
-        if (on && this.swinging) {
+        if (on && this.swinging && this.temperature > 0) {
             this.temperature -= 1;
             System.out.println("- Lower temperature!");
         }

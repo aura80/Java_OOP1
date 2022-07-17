@@ -23,8 +23,10 @@ public class MainAirCond {
         System.out.println(air1.toString());
 
         System.out.println();
+        System.out.println("---------------------");
+        System.out.println();
 
-        AirConditioner air2 = new AirConditioner(27,false);
+        AirConditioner air2 = new AirConditioner(28,false);
         System.out.println(air2.toString());
         air1.turnOn();
         System.out.println(air2.toString());
@@ -42,22 +44,45 @@ public class MainAirCond {
         System.out.println(air2.toString());
 
         System.out.println();
+        System.out.println("---------------------");
+        System.out.println();
 
-        AirConditioner air3 = new AirConditioner(22,true);
+        AirConditioner air3 = new AirConditioner(5,true);
         System.out.println(air3.toString());
         air3.turnOn();
         System.out.println(air3.toString());
         air3.raiseTemperature();
         air3.raiseTemperature();
+        air3.raiseTemperature();
+        air3.raiseTemperature();
+        air3.raiseTemperature();
+        air3.raiseTemperature();
+        air3.raiseTemperature();
         System.out.println(air3.toString());
 
         air3.turnOn();
         air3.lowerTemperature();
         air3.lowerTemperature();
         air3.lowerTemperature();
+
         System.out.println(air3.toString());
         air3.turnOff();
         air3.turnOff();
+
+        air3.turnOn();
+
+        for (int i = 0; i < 33;i++) {
+            air3.raiseTemperature();
+            System.out.println(air3.toString());
+        }
+
+        System.out.println("---------------------");
+        air3.turnOn();
+
+        for (int i = 31; i >= 0; i--) {
+            air3.lowerTemperature();
+            System.out.println(air3.toString());
+        }
 
     }
 }
