@@ -12,11 +12,11 @@ public class AirConditioner {
 
     @Override
     public String toString() {
-        return "AirConditioner{" +
+        return "AirConditioner { " +
                 "on=" + on +
-                ", temperature=" + temperature +
+                ", temperature= " + temperature +
                 ", swinging=" + swinging +
-                '}';
+                " }";
     }
 
     public boolean turnOn() {

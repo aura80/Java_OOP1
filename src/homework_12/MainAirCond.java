@@ -41,5 +41,23 @@ public class MainAirCond {
         air2.raiseTemperature();
         System.out.println(air2.toString());
 
+        System.out.println();
+
+        AirConditioner air3 = new AirConditioner(22,true);
+        System.out.println(air3.toString());
+        air3.turnOn();
+        System.out.println(air3.toString());
+        air3.raiseTemperature();
+        air3.raiseTemperature();
+        System.out.println(air3.toString());
+
+        air3.turnOn();
+        air3.lowerTemperature();
+        air3.lowerTemperature();
+        air3.lowerTemperature();
+        System.out.println(air3.toString());
+        air3.turnOff();
+        air3.turnOff();
+
     }
 }
